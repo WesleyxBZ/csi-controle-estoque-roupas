@@ -4,7 +4,7 @@ Trabalho feitos na cadeira de Programação Orientada a Objetos da WEB I na UFSM
 O objetivo do trabalho foi fazer um sistema de controle de estoque de uma loja de roupas básico.
 Para isto foi aprendido ao longo das aulas: JDBC, JSP e TagLibs.
 
-Foi utilizado também neste trabalho, o template [SB Admin](https://startbootstrap.com/template-overviews/sb-admin/) 
+Foi utilizado também neste trabalho, o template em bootstrap [SB Admin](https://startbootstrap.com/template-overviews/sb-admin/) 
 
 ### Banco de dados utilizado:
 * [PostgreSQL](https://www.postgresql.org/)
