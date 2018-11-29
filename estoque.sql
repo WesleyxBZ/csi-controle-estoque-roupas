@@ -78,33 +78,3 @@ CREATE TABLE produtovenda(
 	FOREIGN KEY(id_estoque) REFERENCES estoque(id_estoque),
 	FOREIGN KEY(id_venda) REFERENCES venda(id_venda)
 );
-
--- INSERTs
-
-INSERT INTO usuario(nome, email, senha, criado_em) VALUES('Maria Dias', 'maria@gmail.com', '123', now()::timestamp(0) without time zone);
-
-INSERT INTO categoria VALUES(DEFAULT, 'Camiseta', now()::timestamp(0) without time zone);
-INSERT INTO categoria VALUES(DEFAULT, 'Calça', now()::timestamp(0) without time zone);
-INSERT INTO categoria VALUES(DEFAULT, 'Moletom', now()::timestamp(0) without time zone);
-INSERT INTO categoria VALUES(DEFAULT, 'Casaco', now()::timestamp(0) without time zone);
-
-
-INSERT INTO produto VALUES(DEFAULT, 1, 'Aaaa', 'Vermelho', 'P', 'Aaaa', '1111111111111', 39.90, 'no image', true, now()::timestamp(0) without time zone, null);
-INSERT INTO produto VALUES(DEFAULT, 2, 'Bbbb', 'Roxo', '46', 'Bbbb', '2222222222222', 129.90, 'no image', true, now()::timestamp(0) without time zone, null);
-INSERT INTO produto VALUES(DEFAULT, 3, 'Cccc', 'Verde', 'M', 'Cccc', '3333333333333', 19.90, 'no image', true, now()::timestamp(0) without time zone, null);
-INSERT INTO produto VALUES(DEFAULT, 4, 'Dddd', 'Preto', 'GG', 'Dddd', '4444444444444', 89.90, 'no image', true, now()::timestamp(0) without time zone, null);
-INSERT INTO produto VALUES(DEFAULT, 1, 'Eeee', 'Amarelo', '48', 'Eeee', '5555555555555', 159.90, 'no image', true, now()::timestamp(0) without time zone, null);
-
-INSERT INTO estoque VALUES(DEFAULT, 1, 10, null);
-INSERT INTO estoque VALUES(DEFAULT, 2, 20, null);
-INSERT INTO estoque VALUES(DEFAULT, 3, 30, null);
-INSERT INTO estoque VALUES(DEFAULT, 4, 40, null);
-INSERT INTO estoque VALUES(DEFAULT, 5, 50, null);
-
-
-
-
-
-
-
-
