@@ -8,5 +8,5 @@ Para isto foi aprendido ao longo das aulas: JDBC, JSP e TagLibs.
 * [PostgreSQL](https://www.postgresql.org/)
 
 ### IDEs utilizada:
-* [Netbeans](https://netbeans.org/
+* [Netbeans](https://netbeans.org/)
 * [Visual Studio Code](https://code.visualstudio.com/)
