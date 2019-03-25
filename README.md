@@ -6,11 +6,3 @@ Para isto foi aprendido ao longo das aulas: JDBC, JSP e TagLibs.
 
 Foi utilizado também neste trabalho, o template em bootstrap [SB Admin](https://startbootstrap.com/template-overviews/sb-admin/) 
 
-### Banco de dados utilizado:
-* [PostgreSQL](https://www.postgresql.org/)
-
-### IDEs utilizada:
-* [Netbeans](https://netbeans.org/)
-* [Visual Studio Code](https://code.visualstudio.com/)
-
-
